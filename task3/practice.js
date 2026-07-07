@@ -100,6 +100,8 @@ function multiply(num1, num2) {
 
 }
 
+document.write(multiply(3, 4));
+document.write("<br>");
 document.write(multiply(5, 4));
 /*9*/
 function canIGetADrivingLicense(age) {
