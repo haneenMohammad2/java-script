@@ -286,7 +286,7 @@ function readyToPutInTheDOM(arr){
     
     function doubleValues(arr) {
     const result5 = arr.map((value, index) => {
-        return value * value ;
+        return value * 2 ;
     });
 
     return result5;
