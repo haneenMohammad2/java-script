@@ -339,7 +339,7 @@ console.log(valTimesIndex([1, -2, -3]));
   
   function extractKey(arr, key){
      const result6 = arr.map((person) => {
-        return person[key];
+        return person.name;
     });
 
     return result6;
