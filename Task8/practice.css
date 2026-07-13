@@ -1,0 +1,69 @@
+#title {
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+}
+/*3*/
+.box{
+    width: 500px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.header h2{
+    margin: 0;
+}
+
+.btn{
+    background: none;
+    border: none;
+    color: purple;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.content{
+    display: none;
+    padding: 15px;
+    line-height: 1.6;
+}
+#animationBox {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: blue;
+    }
+
+    25% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    75% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}
