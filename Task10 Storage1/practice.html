@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Project Information</title>
+
+    <link rel="stylesheet" href="practice.css">
+
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <h1>Project Information</h1>
+
+        <form id="projectForm">
+
+            <!-- Subject -->
+            <div class="form-group">
+
+                <label for="subject">Subject:</label>
+
+                <input
+                    type="text"
+                    id="subject"
+                    placeholder="Enter project subject"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Description -->
+            <div class="form-group">
+
+                <label for="projectDescription">
+                    Description:
+                </label>
+
+                <textarea
+                    id="projectDescription"
+                    rows="5"
+                    placeholder="Describe your project"
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <!-- User Types -->
+            <div class="form-group">
+
+                <label for="userTypes">
+                    User Types:
+                </label>
+
+                <input
+                    type="text"
+                    id="userTypes"
+                    placeholder="Example: Admin, User"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Technology Used -->
+            <div class="form-group">
+
+                <label for="technology">
+                    Technology Used:
+                </label>
+
+                <input
+                    type="text"
+                    id="technology"
+                    placeholder="Example: HTML, CSS, JavaScript"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Message -->
+            <p id="projectMessage"></p>
+
+
+            <!-- Submit Button -->
+            <button
+                type="button"
+                id="projectBtn"
+            >
+                Submit
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- Project Card -->
+    <section class="cards-section">
+
+        <h2>Project Details</h2>
+
+        <div id="projectCard"></div>
+
+    </section>
+
+
+    <script src="practice.js"></script>
+
+</body>
+
+</html>

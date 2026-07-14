@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Personal Data Form</title>
+
+    <link rel="stylesheet" href="practice.css">
+
+</head>
+
+<body>
+
+    <!-- Personal Data Form -->
+    <div class="form-container">
+
+        <h1>Personal Data Form</h1>
+
+        <form id="personalForm">
+
+            <!-- Full Name -->
+            <div class="form-group">
+
+                <label for="fullName">
+                    Full Name:
+                </label>
+
+                <input
+                    type="text"
+                    id="fullName"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Age -->
+            <div class="form-group">
+
+                <label for="age">
+                    Age:
+                </label>
+
+                <input
+                    type="number"
+                    id="age"
+                    placeholder="Enter your age"
+                    min="1"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Gender -->
+            <div class="form-group">
+
+                <p>Gender:</p>
+
+                <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="Female"
+                >
+
+                <label for="female">
+                    Female
+                </label>
+
+
+                <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="Male"
+                >
+
+                <label for="male">
+                    Male
+                </label>
+
+            </div>
+
+
+            <!-- Brief Description -->
+            <div class="form-group">
+
+                <label for="description">
+                    Brief Description:
+                </label>
+
+                <textarea
+                    id="description"
+                    rows="5"
+                    placeholder="Write a brief description about yourself"
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <!-- Major -->
+            <div class="form-group">
+
+                <label for="major">
+                    Major:
+                </label>
+
+                <input
+                    type="text"
+                    id="major"
+                    placeholder="Enter your major"
+                    required
+                >
+
+            </div>
+
+
+            <!-- University -->
+            <div class="form-group">
+
+                <label for="university">
+                    University:
+                </label>
+
+                <input
+                    type="text"
+                    id="university"
+                    placeholder="Enter your university"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Programming Languages -->
+            <div class="form-group">
+
+                <p>Preferred Programming Languages:</p>
+
+
+                <input
+                    type="checkbox"
+                    id="javascript"
+                    name="languages"
+                    value="JavaScript"
+                >
+
+                <label for="javascript">
+                    JavaScript
+                </label>
+
+
+                <input
+                    type="checkbox"
+                    id="python"
+                    name="languages"
+                    value="Python"
+                >
+
+                <label for="python">
+                    Python
+                </label>
+
+
+                <input
+                    type="checkbox"
+                    id="java"
+                    name="languages"
+                    value="Java"
+                >
+
+                <label for="java">
+                    Java
+                </label>
+
+
+                <input
+                    type="checkbox"
+                    id="cpp"
+                    name="languages"
+                    value="C++"
+                >
+
+                <label for="cpp">
+                    C++
+                </label>
+
+            </div>
+
+
+            <!-- Validation Message -->
+            <p id="message"></p>
+
+
+            <!-- Submit Button -->
+            <button
+                type="button"
+                id="submitBtn"
+            >
+                Submit
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- Personal Information Card -->
+    <section class="cards-section">
+
+        <h2>Personal Information</h2>
+
+        <div id="cardsContainer"></div>
+
+    </section>
+
+
+    <!-- JavaScript File -->
+    <script src="practice.js"></script>
+
+</body>
+
+</html>
