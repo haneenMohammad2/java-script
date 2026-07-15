@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+#tableTitle {
+    margin: 0;
+    padding: 20px;
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#usersTable {
+    display: none;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: left;
+}
+
+th {
+    background-color: #eeeeee;
+}
